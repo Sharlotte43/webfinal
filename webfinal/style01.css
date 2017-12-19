@@ -1,0 +1,100 @@
+body{
+  font-size:35px;
+  color: #33ff33;
+  background-color: black;
+}
+#password{
+  font-size:30px;
+  font-family: 'VT323', monospace;
+  color: #33ff33;
+  background-color: black;
+}
+button{
+  font-size:20px;
+  font-family: 'VT323', monospace;
+  color: #33ff33;
+  background-color: black;
+}
+.pw{
+  font-family: 'VT323', monospace;
+  text-align: center;
+  margin-top: 200px;
+  z-index: 10;
+}
+.hint{
+  font-size: 20px;
+  font-family: 'VT323', monospace;
+}
+.blackbox{
+
+  position: absolute;
+  margin-top: 0;
+  margin-left:400px;
+  background-color: black;
+  height:100px;
+  width:100px;
+}
+.blackbox:hover{
+  background-color: #111111;
+}
+.ft{
+  float:right;
+  font-size: 20px;
+  font-family: 'VT323', monospace;
+}
+
+/*==========================================================*/
+#three {
+border: 3px solid black;
+position: absolute;
+top: 8%;
+left: 5%;
+z-index: 0;
+}
+
+#three img {
+float: left;
+transition: all 1s ease-in;
+-webkit-transition: all 1s ease-in;
+}
+
+#three .right3 {
+transform: translateY(-1000px);
+-webkit-transform: translateY(-1000px);
+}
+
+#three .left3 {
+transform: translateX(-1000px);
+-webkit-transform: translateX(-1000px);
+}
+
+
+#three:hover .right3, #three:hover .left3 {
+transform: translateX(0px);
+-webkit-transform: translateX(0);
+}
+
+p {
+font-weight:bold;
+}
+/*==========================================================*/
+
+section{
+  height:100px;
+}
+section1{
+float: right;
+display: inline-block;
+}
+section2{
+float: right;
+display: inline-block;
+}
+section3{
+float: right;
+display: inline-block;
+}
+section4{
+float: right;
+display: inline-block;
+}

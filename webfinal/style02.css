@@ -1,0 +1,43 @@
+body{
+  text-align: center;
+  margin-top: 250px;
+  font-size: 500%;
+  background-color: black;
+}
+p{
+  font-family: 'VT323', monospace;
+  color: #33ff33;
+}
+.image-1{
+    position: fixed;
+    margin-top: 0px;
+    margin-left: 205px;
+    left: 0;
+    top: 0;
+    opacity: 0.5;
+    z-index: 0;
+}
+.image-1 > img {
+    width: 65vw;
+    height: 100vh;
+}
+.image-2{
+    position: absolute;
+    top:25vw;
+    left:0;
+    z-index: 2;
+}
+.image-2 > img {
+    width: 200%;
+    height: 200%;
+}
+.image-3{
+    position: absolute;
+    top:25vw;
+    right:125px;
+    z-index: 2;
+}
+.image-3 > img {
+    width: 200%;
+    height: 200%;
+}

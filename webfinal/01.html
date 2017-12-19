@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="style01.css">
+    <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
+  </head>
+                               <!---功能放在要改变的项目之前。-->
+  <body>
+
+   <div class="hint">
+     <p>(4).</p>
+   </div>
+
+
+   <a href="2nd Game.html"><div class="blackbox"></div></a>
+
+   <div id="three">
+     <img class="left3" src="gif/3.1.png" />
+     <img class="right3" src="gif/3.2.png" />
+   </div>
+
+<div class="ft">
+   <p class="base" id="base1">The first number is less than the third one:</p>
+    <p id="first"></p>
+    <p id="third"></p>
+    <p id="second"></p>
+
+</div>
+
+        <section>
+          <section1><!--check box-->
+            <div class="checkbox1">
+              <button>o</button>
+            </div>
+            <div class="checkbox2">
+             <button>o</button>
+            </div>
+            <div class="checkbox3">
+              <button>o</button>
+            </div>
+            <div class="checkbox4">
+              <button>o</button>
+            </div>
+          </section1>
+
+          <section2>
+            <div class="checkbox5">
+              <button>o</button>
+            </div>
+            <div class="checkbox6">
+              <button>o</button>
+            </div>
+            <div class="checkbox7">
+              <button onclick="myfunction()">o</button>
+            </div>
+            <div class="checkbox8">
+              <button>o</button>
+            </div>
+          </section2>
+
+          <section3>
+            <div class="checkbox9">
+              <button>o</button>
+            </div>
+            <div class="checkbox10">
+              <button onclick="myfunction2()">o</button>
+            </div>
+            <div class="checkbox11">
+              <button>o</button>
+            </div>
+            <div class="checkbox12">
+              <button>o</button>
+            </div>
+          </section3>
+
+          <section4>
+            <div class="checkbox13">
+              <button>o</button>
+            </div>
+            <div class="checkbox14">
+              <button>o</button>
+            </div>
+            <div class="checkbox15">
+              <button>o</button>
+            </div>
+            <div class="checkbox16">
+              <button onclick="myfunction3()">o</button>
+            </div>
+          </section4>
+         <section>
+
+
+   <div class="pw">
+     <p>Enter password:</p>
+     <!--button onclick="document.getElementById('demo').innerHTML=Date()">the time is?</button>
+     <p id="demo"></p-->
+     <p><input id='password' type='text' onfocus="this.value=''" value="------------------------">
+        <a href="02.html" onclick="javascript:return validatePass()"></p>
+     <button>enter to access.</buttom>
+   </div>
+      <script>
+      function validatePass(){
+        if(document.getElementById('password').value == '2343'){
+            return true;
+          }else{
+            alert('Wrong password.');
+            return false;
+          }
+        }
+
+        function myfunction() {
+        document.getElementById("first").innerHTML = "Both two number are smaller than 6.";
+      }
+
+        function myfunction2() {
+        document.getElementById("third").innerHTML = "One is bigger than half of 6, another is smaller.";
+        }
+        function myfunction3() {
+        document.getElementById("second").innerHTML = "How much each number different with half of 6 are the same.";
+        }
+
+      </script>
+
+
+  </body>
+</html>
